@@ -23,16 +23,20 @@
 const THOUGHTS = [
   {
     date: "2026-09-25",
-    title: "Beispiel: Der Tag davor",
-    text: `Dies ist ein Beispiel-Eintrag, damit du siehst, wie das Blättern zwischen den Tagen funktioniert.
-
-Ersetze ihn gern durch deinen eigenen Gedanken.`
+    title: "Vergangenheitsmusik",
+    text: `Tütütü, noch nichts gedacht.`
   },
   {
     date: "2026-09-26",
-    title: "Beispiel: Anfangen",
-    text: `Heute beginnt „My Thought“. Jeden Tag ein Gedanke – und dann ein Stück tiefer hinein.
-
-Dieser Text ist nur ein Platzhalter. Öffne die Datei js/thoughts.js und trage dort deine eigenen Gedanken mit dem passenden Datum ein.`
-  }
+    title: "Grau, teurer Freund, ist alle Theorie, / Und grün des Lebens goldner Baum",
+    text: `Hi zusammen! Es geht los, endlich .. Vermutlich ließt das hier sowieso niemand, jedoch hatte ich heute morgen beim Joggen einen Gedanken gehabt und auch sofort das Bedürfnis ihn irgendwie auszuformulieren.
+    Nun wird das hier das Medium dafür sein. Mal sehen wie es weiter geht, aber gerade machts Spaß.
+    Also.. worüber möchte ich heute überhaupt schreiben? Mit dem Zitat möchte ich zunächst Fokus auf den Begriff Wissen legen. Und zudem wie wieder im Zusammenspiel mit dem Leben steht.
+    Wissen blabla blubs… `
+  },
+    {
+    date: "2026-09-26",
+    title: "Arrogante Feuerbacher",
+    text: ``
+  },
 ];
