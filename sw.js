@@ -3,7 +3,7 @@
  * Strategie: erst Netzwerk (damit neue Gedanken sofort erscheinen), sonst Cache.
  * Bei Änderungen an den Dateien die Versionsnummer erhöhen.
  */
-const CACHE = "my-thought-v1";
+const CACHE = "my-thought-v2";
 const FILES = [
   "./",
   "index.html",
@@ -11,7 +11,10 @@ const FILES = [
   "js/thoughts.js",
   "js/app.js",
   "manifest.webmanifest",
-  "icons/icon.svg"
+  "icons/icon.svg",
+  "icons/icon-180.png",
+  "icons/icon-192.png",
+  "icons/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
