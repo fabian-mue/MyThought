@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>My Thought – Fabians Blog</title>
+  <meta name="description" content="Jeden Tag ein Gedanke – Fabians Blog.">
+  <meta name="theme-color" content="#f6f1e9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1a17" media="(prefers-color-scheme: dark)">
+
+  <!-- App-Vorbereitung (Progressive Web App) -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="My Thought">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">My Thought</a>
+    <span class="byline">Fabians Blog</span>
+  </header>
+
+  <main class="page">
+    <nav class="day-nav" aria-label="Zwischen Tagen wechseln">
+      <button id="prev" type="button" aria-label="Vorheriger Gedanke">&larr;</button>
+      <time id="date" class="date"></time>
+      <button id="next" type="button" aria-label="Nächster Gedanke">&rarr;</button>
+    </nav>
+
+    <article id="thought" class="thought" aria-live="polite">
+      <h1 id="title" class="title"></h1>
+      <div id="body" class="body"></div>
+    </article>
+
+    <p class="to-today"><a id="today-link" href="./" hidden>Zurück zu heute</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span id="year"></span> Fabian</span>
+  </footer>
+
+  <!-- Deine Sammlung an Gedanken -->
+  <script src="js/thoughts.js"></script>
+  <!-- Logik der Seite -->
+  <script src="js/app.js"></script>
+</body>
+</html>

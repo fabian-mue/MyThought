@@ -1,0 +1,14 @@
+{
+  "name": "My Thought – Fabians Blog",
+  "short_name": "My Thought",
+  "description": "Jeden Tag ein Gedanke.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e9",
+  "theme_color": "#f6f1e9",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
